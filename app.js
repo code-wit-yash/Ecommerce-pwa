@@ -1,7 +1,7 @@
 // 📌 Register Service Worker
 if ("serviceWorker" in navigator) {
     window.addEventListener("load", () => {
-        navigator.serviceWorker.register("./service-worker.js")
+        navigator.serviceWorker.register("/Ecommerce-pwa/service-worker.js")
             .then((reg) => console.log("Service Worker Registered!", reg.scope))
             .catch((err) => console.error("Service Worker Registration Failed!", err));
     });
