@@ -1,3 +1,4 @@
+//testing
 const CACHE_NAME = "ecommerce-cache-v1";
 const urlsToCache = [
     "/",
