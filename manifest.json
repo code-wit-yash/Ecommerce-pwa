@@ -1,0 +1,22 @@
+{
+    "name": "E-commerce PWA",
+    "short_name": "E-Shop",
+    "description": "A simple E-commerce Progressive Web App",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#007BFF",
+    "icons": [
+      {
+        "src": "/Images/icon-192.png",
+        "sizes": "192x192",
+        "type": "Image/png"
+      },
+      {
+        "src": "/Images/icon-512.png",
+        "sizes": "512x512",
+        "type": "Image/png"
+      }
+    ]
+  }
+  
